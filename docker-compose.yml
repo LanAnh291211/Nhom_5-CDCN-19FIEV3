@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  plc-base-react:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2912:80"
